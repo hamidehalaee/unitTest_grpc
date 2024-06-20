@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "grpc-testing": {
+      "type": "library",
+      "root": "libs/grpc-testing",
+      "entryFile": "index",
+      "sourceRoot": "libs/grpc-testing/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/grpc-testing/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
